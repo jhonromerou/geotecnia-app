@@ -1,0 +1,1 @@
+<?phpif(_js::iseErr(_ADMS::$reqD['whsName'],'Se debe definir nombre de bodega.')){}else if($js=_js::textMax(_ADMS::$reqD['whsCode'],20,'Código')){ _err::err($js); }else if($js=_js::textMax(_ADMS::$reqD['whsName'],20,'Nombre')){ _err::err($js); }?>

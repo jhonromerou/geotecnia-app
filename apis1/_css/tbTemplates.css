@@ -1,0 +1,10 @@
+
+.table_lte3 >thead>tr>th:first-of-type{ padding-left: 1.5rem; }
+.table_lte3 { border:1px solid #dee2e6; }
+.table_lte3 thead th{ vertical-align:bottom; border-bottom:2px solid #dee2e6; }
+.table_lte3>thead>tr>th{ border-top-width:0; border-bottom-width:2px; }
+.table_lte3 td, .table_lte3 th{ border:1px solid #dee2e6; padding:.3rem }
+
+.table_archi1{ width:100%; background-color:transparent; }
+.table_archi1 thead th{ vertical-align:bottom; border-bottom:2px solid #e9ecef; }
+.table_archi1 th, .table_archi1 td{ vertical-align:middle; }

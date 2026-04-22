@@ -1,0 +1,7 @@
+<ifmodule mod_rewrite.c>
+ Options +FollowSymLinks
+ Options +Indexes
+ RewriteEngine on
+ RewriteRule ^$ index.php?getFileTemps=201909031307 [L,QSA]
+ RewriteRule ^login$ login.php [L,QSA]
+</ifmodule>

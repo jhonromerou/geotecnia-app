@@ -1,0 +1,1 @@
+<?phpfunction revisar($_J=array()){	if(_js::iseErr($_J['slpName'],'Se debe definir nombre de responsable.')){}	else if($js=_js::textMax($_J['slpCode'],20,'Código')){ _err::err($js); }	else if($js=_js::textMax($_J['slpName'],20,'Nombre')){ _err::err($js); }}$tbk='par_oslp';$vidn='slpId';$whGet =' ';$_o=array('k'=>'slpId','v'=>'slpName');?>

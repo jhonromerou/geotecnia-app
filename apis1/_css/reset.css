@@ -1,0 +1,69 @@
+@charset "utf-8";
+html { font-size: 16px; }
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,  caption {
+border: 0 none;
+font-family: inherit;
+font-style: inherit;
+font-weight: inherit;
+margin: 0;
+outline: 0 none;
+padding: 0;
+}
+
+body {
+background: none repeat scroll 0 0 white;
+color: black;
+line-height: 1.1; 
+}
+
+ol, ul {
+    list-style: none outside none;
+}
+.liPlain, .liPlain ul { list-style-type:circle; list-style-position:inside;  }
+.liPlain li ul { list-style-type:square; }
+.liPlain li{
+	margin-left:9px;
+}
+table { border-collapse:collapse; }
+caption, th, td { font-weight: normal; text-align: left; }
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: inherit;
+	font-weight: bold;
+}
+h1 {
+	font-size: 1.875rem; font-weight: bold;
+	padding:3px 5px; margin:3px 5px 6px 5px;
+}
+h2 {
+ font-size:1.625rem; padding: 0 0 0.625rem;;
+}
+h3 {
+	font-size: 1.0625rem;
+	padding: 0 0 0.625rem;
+}
+h4 {
+	font-size: 14px;
+	padding: 0 0 0.625rem;
+}
+
+p {
+  line-height: 1.6em;
+  padding: 5px 0 0.625rem;
+}
+img {
+	max-width:100%;
+	min-width:1rem;
+	max-height:100%;
+}
+a img {
+	border:none;
+}
+
+textarea { resize:none; overflow-y:auto; width:100%; padding:0.1875rem; margin: 0; 
+	max-width:100%; min-height:3.75rem; }
+input { max-width:100%; }
+input[type=text]{ border:0.0625rem solid #CCC; }
+.clear { clear:both !important; }
+.c-pointer { cursor:pointer !important; }
+.pre100{ max-width:100%; white-space:pre-line; }

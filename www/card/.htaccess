@@ -1,0 +1,7 @@
+<ifmodule mod_rewrite.c>
+ Options +FollowSymLinks
+ Options +Indexes
+ RewriteEngine on
+ RewriteRule ^$ card.index.php [L,QSA]
+ RewriteRule ^login$ card.login.php [L,QSA]
+</ifmodule>

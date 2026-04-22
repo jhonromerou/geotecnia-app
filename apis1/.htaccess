@@ -1,0 +1,28 @@
+<ifmodule mod_rewrite.c>
+Options +FollowSymLinks
+Options -Indexes
+RewriteEngine on
+RewriteRule ^help/.*?$ help.php [L,QSA]
+RewriteRule ^xs_login$ __2_login.php [L,QSA]
+RewriteRule ^(a|js|jsx)/.*?$ __1_v1.php [L,QSA]
+RewriteRule ^(appi|unclicc|tpd)/.*?$ __appi.php [L,QSA]
+RewriteRule ^sys.*?$ __1_v1.php [L,QSA]
+RewriteRule ^(mnt.*)$ index.php?file=/$1 [L,QSA]
+RewriteRule ^storage(\/.*)?$ _storage/index.php?file=$1 [L,QSA]
+
+RewriteRule ^v1/(.*)/(.*)/?([0-9]*)?$ __1_v1.php?APIKEY=$2&APIREFID=$3 [L,QSA]
+RewriteRule ^xl/(.*)$ __0_rlocal.php [L,QSA]
+RewriteRule ^lbDef$ lbDef.php [L,QSA]
+RewriteRule ^jsLoad$ lbDef.php [L,QSA]
+
+RewriteRule ^1/(.*)$ __1_v1.php [L,QSA]
+RewriteRule ^1c/(.*)$ __1_v1.php [L,QSA]
+RewriteRule ^(api|v1)/(.*)/?(.*?)$ __1_v1.php?APIKEY=$3 [L,QSA]
+RewriteRule ^help$ tuto/index.php?___ocardcode=$1&___ocardtooken=$1 [L,QSA]
+RewriteRule ^sr/(.*)$ __1_v1.php?APIKEY=__rep/$2 [L,QSA]
+
+#SIMPLIFICAR TODO AQUI ----------------------------------
+RewriteRule ^app/updFile$ __adms/_files/uploadFile.php [L,QSA]
+
+RewriteRule ^jsLoad$ __adms/jsLoad.php [L,QSA]
+</ifmodule>

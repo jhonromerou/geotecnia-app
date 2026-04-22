@@ -1,0 +1,70 @@
+@charset "utf-8";
+:root{
+ --cLink:#007bff;
+ --blue:#007bff;
+ --green:#28a745;
+ --red:#dc3545;
+ --yellow:#ffc107;
+}
+html { font-family:sans-serif; font-size: 16px;  }
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,  caption {
+border: 0 none;
+font-family: inherit;
+font-style: inherit;
+font-weight: inherit;
+margin: 0;
+outline: 0 none;
+padding: 0;
+}
+*, ::after, ::before{ box-sizing:border-box; }
+body {
+margin:0; line-height:1.5; text-align:left;
+background: none repeat scroll 0 0 white;
+}
+
+hr {
+box-sizing: content-box; 
+height: 0;
+overflow: visible; 
+}
+
+ol, ul {
+ list-style: none outside none; margin-top:0; margin-bottom:1rem;
+}
+ol ol, ul ul, ol ul, ul ol{ margin-bottom:0; }
+table { border-collapse:collapse; }
+table thead td{ font-weight: bold; }
+caption { font-weight: normal; text-align: left; }
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: inherit; margin-top:0;
+}
+a:not([href]){ color:inherit;; text-decoration:none; }
+a{ text-decoration: none; background-color:transparent; color:var(--cLink);}
+p { margin-top:0;
+  line-height: 1.6em;
+  padding: 5px 0 0.625rem;
+}
+img {
+	max-width:100%; border-style:none;
+	min-width:1rem; vertical-align:middle;
+	max-height:100%;
+}
+.fa { color:inherit; }
+.fa:before{ padding-right:4px; }
+.fa-doccancel:before{ content:"\f06a"; color:var(--red); }
+
+.tfItalic{ font-style: italic; }
+a img { border:none; }
+label{ display:inline-block; margin-bottom:.5rem; }
+textarea { margin:0; font-family:inhert; line-height:inherit; overflow:auto; resize:vertical; }
+button,select{ text-transform:none; }
+select{ word-wrap:normal; }
+progress{ vertical-align:baseline; }
+input { max-width:100%; }
+input[type=text]{ border:0.0625rem solid #CCC; }
+.d-inlineblock{ display:inline-block !important; }
+.hidden{ position:absolute; clip:rect(0,0,0,0); }
+.clear { clear:both !important; }
+.c-pointer { cursor:pointer !important; }
+.pre100{ max-width:100%; white-space:pre-line; }

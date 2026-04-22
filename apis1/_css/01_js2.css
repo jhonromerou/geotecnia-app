@@ -1,0 +1,129 @@
+.over {
+ border:0.125rem dashed #000 !important;
+}
+
+
+#admsDBLoaderFull {
+	margin:0 auto !important;
+	padding:3rem 0 0 3rem;
+}
+
+/* LOGS E HISTORICOS */
+.logLine { font-size:13px; line-height:17px; color:#898E95; }
+.logLine > .dateC { color:#02ceff; }
+
+.historyWrap { border:1px solid #CCC; margin-left:14px; } /* dayli history */
+.historyArticle { padding:6px 6px 10px 6px; position:relative; min-height:50px; border-bottom:1px solid #CCC;}
+.historyIco { position:absolute; left:-12px; top:40%; border:1px solid #CCC; border-radius:50%; background-color:#EEE; width:24px; height:24px; text-align:center;
+	background-position:center center; background-repeat:no-repeat; }
+.historyCont { padding-left:20px;    }
+.historyCont .lineMemo{ padding:3px 0; font-size:13px;}
+.historyCont .relTo { padding:6px 0 3px; font-size:11px; }
+.historyCont .infoData { padding:3px 0; font-size:11px;}
+
+/* CALENDAR y TIME*/
+.tbCal_min{} /* Tabla de calendario  visible */
+.tbCal_min >thead tr td { border:none; font-weight:bold; font-size:9px; }
+.tbCal_min >tbody tr td { border:none; width:20px; 
+	font-size:11px; text-align:center; vertical-align:middel; }
+.tbCal_min >tbody tr td:hover { background:#CCC; cursor:pointer; }
+
+.time-picker { position:absolute; z-index:5; background:#FFF; width:60px; border:1px solid #CCC; height:120px; overflow-y:scroll; }
+.time-picker ul > li { padding:5px; cursor:pointer; }
+.time-picker ul > li:hover { background:#3498db; }
+
+/* FORMS INPUTS DESIGN */
+.formMail:after{ content:"-"; display:block; clear:both; height:5px; color:transparent; }
+.formMail label{ max-width:120px; width:15%;; float:left; font-weight:bold; padding:10px 5px; text-align:right; margin-left:5px; }
+.formMail .input {
+	width:75%;
+	padding: 10px; float:left;
+	border: 1px solid #E5E5E5;
+	box-shadow: rgba(0,0,0,0.1) 0px 0px 8px;
+	-moz-box-shadow:rgba(0,0,0,0.1) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0,0,0,0.1) 0px 0px 8px;
+}
+.formMail .textarea {
+	height: 150px;
+	line-height: 18px;
+}
+.textarea, .textAreaAuto{ border:1px solid #DDD; border-radius:5px; padding:6px; min-height:70px; max-height:100px; overflow-y:auto; }
+.textAreaAuto { min-height:0; }
+
+
+.logTimeLine {  }
+.logTimeLine:after { content:" "; clear:both; display:block;}
+.logTimeLine .line{ float:left; width:20px; height:20px; border:1px solid #898e95; background:#CCC; border-radius:50%; color:transparent; }
+.logTimeLine .content{ float:left; padding:0 0 15px 30px; border-left:1px solid #CCC; margin-left:-11px; }
+.logTimeLine:last-child .content{ border-left:none; }
+.logTimeLine .content > span { display:inline-block; margin-right:6px; font-size:13px; color:#888E94; }
+.logTimeLine .content .dateC:after { content:" · "; }
+
+/*CHECKLIST INTERNO */
+.checkListSimpleWrapList{ padding:4px; }
+.checkListSimpleWrapList .item { position:relative; padding:4px 0; margin-bottom:8px; border:1px solid #CCC; }
+.checkListSimple_addWrap { position:relative; }
+.checkListSimpleWrapList .item:hover { cursor:move; }
+
+/* Personalizar al marcar checkbox */
+
+
+.tbCanvasCard { min-width:15rem; border-collapse:separate; background-color:#FFF; }
+.tbCanvasCard >thead td{ font-weight:bold; min-width:16rem; padding:0.5rem; }
+.tbCanvasCard >thead  td .actTotal{ padding:0.5rem;  float:right; font-size:0.6rem; }
+.tbCanvasCard >tbody > tr.noborder td{ border:none !important; }
+.tbCanvasCard >tbody > tr > td{ padding:0.5rem; vertical-align:top; 
+	border:0.125rem solid #CCC; min-height:5rem; }
+
+.cardCanvas{ min-width:17rem; border:0.0625rem solid #CCC; padding:0.125rem; background-color:#FFF; border-radius:0.0625rem; margin-bottom:0.5rem; }
+
+.cardCanvas .actAsunt { font-size:0.8rem; }
+.cardCv_top{ height:1.25rem;  font-size:0.6rem;padding:0.0625rem; margin-bottom:0.0625rem; }
+.cardCv_top .cardCv_tag { float:left; border:0.0625rem solid #CCC;  margin-right:0.0625rem; }
+.cardCv_top .cardCv_prio { max-width:20%; float:left; padding:0.0625rem; margin-right:0.0625rem; }
+.cardCv_top .cardCv_dueDate { max-width:32%; float:left; }
+.cardCv_top .cardCv_main { float:right; }
+.cardCv_asunt { font-weight:bold; margin:0.25rem 0; cursor:pointer; font-size:0.75rem; }
+.cardCv_bottom .cardCv_dueDate { }
+.cardCv_markCompleted { float:right; }
+.cardCv_bottom{ font-size:0.8rem; }
+.cardCv_timeDo{ clear:both; display:block; }
+.cardCv_timeDo:after{ content:"."; clear:both; }
+
+/* */
+.kardLine_wrap { border-bottom:0.0625rem solid #CCC; margin-bottom:0.75rem; border:0.062rem solid #CCC; padding:0.25rem; border-radius:0.25rem; background-color:#FFF; }
+
+
+.tLine { min-width:64rem; background-color:#FFF; }
+.tLine_grip{ border-right:1px solid #d6d6d6!important;  display:inline-block; min-width:25.625rem;  }
+.tLine_grip_scale{ height:2.125rem; line-height:2.0625rem; }
+.tLine_grip_scale > div { display:inline-block; border-bottom:0.0625rem solid #CCC; }
+.tLine_grip_taskName { width:18.125rem; display:inline-block; word-wrap:break-word; }
+.tLine_grip_perc { width:3.75rem; display:inline-block;}
+.tLine_grip_scale .tLine_grip_prio { width:3.75rem; display:inline-block;}
+.tLine_grip_prio { width:2.75rem; display:inline-block;}
+
+
+.tLine_task{ vertical-align:top; display:inline-block;  min-width:37.375rem;  }
+.tLine_task_scale{ height:2.125rem; text-align:center; border-left:0.0625rem solid #CCC; font-size:0.75rem; }
+.tLine_scale_line{ height:21.25rem; line-height:21.25rem; }
+/* row =tr, cell = td*/
+.tLine_grip_data .tLine_row { padding:0.0625rem 0.25rem;  border-bottom:0.0625rem solid #bababa; }
+.tLine_row{ height:2.125rem; line-height:2.125rem; margin-bottom:0.0625rem;  }/*35px*/
+
+.tLine_task_row { height:2.25rem; line-height:2.25rem; margin-bottom:0.09375rem; }
+.tLine_task_textTop { word-wrap:no-wrap; overflow:hidden; font-size:0.75rem; }
+
+.tLine_scale_cell{ width:2.135rem; position:absolute; border-left:0.0625rem solid #CCC; height:2.125rem; padding-top:0.3rem; }/*70px*/
+
+
+/* LOG */
+.cardLog_wrap{ border:0.0625rem solid #CCC; background-color:#F5F5F6; padding:0.25rem; margin-bottom:0.5rem; }
+.cardLog_wrap .cLog_top{ font-size:0.85rem; border-bottom:0.0625rem solid #CCC; margin-bottom:0.25rem; }
+.cardLog_wrap .cLog_memo{ color:#72BF1F; padding:0.25rem 0; }
+.cardLog_wrap .cLog_dateC{ margin-top:0.25rem; font-size:0.7rem; }
+
+/* contents, wins */
+._winOpenBk { background-color:rgba(255,255,255,1);  border:0.0625rem solid #CCC; overflow:auto; margin:0 auto; top:0.25rem; padding:0.65rem; position:relative; display:table;}
+
+/* responsibe */

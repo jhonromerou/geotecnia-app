@@ -1,0 +1,1 @@
+<?phpfunction revisar($_J=array()){	if(_js::iseErr($_J['whsNamess'],'Se debe definir nombre de bodega.')){}	else if($js=_js::textMax($_J['whsCode'],20,'Código')){ _err::err($js); }	else if($js=_js::textMax($_J['whsName'],20,'Nombre')){ _err::err($js); }}$tbk='itm_owhs';$vidn='whsId';?>

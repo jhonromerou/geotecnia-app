@@ -1,0 +1,126 @@
+.lisTask_wrapper{
+	position:relative; padding:0; font-size:0.9rem;
+}
+.lisTask_wrapLists{
+	float:left; width:calc(16% - 0.5625rem); height:100%; background-color:#FAFAFA; padding:0 0.25rem; 
+	border-right:0.0625rem solid #DDD;
+}
+.lisTask_wrapLists li div:nth-child(2){
+	max-width:78%; overflow-x:hidden;
+}
+
+.lisTask_wrapTasks{
+	float:left; width:calc(38% - 0.5rem); padding:0 0.25rem;
+}
+.lisTask_wrapViewTask{
+	float:right; width:calc(46% - 0.5625rem); height:100%; padding:0 0.25rem; background-color:#FAFAFA;
+	border-left:0.0625rem solid #DDD;
+}
+
+.divLineTaskInput{ /* require divLine + wrapx1 */
+	border:0.0625rem solid #CCC;
+	padding-bottom:0;
+}
+.divLineTaskInput .wrapx1{  }
+.divLineTaskInput .wrapx1 input { border:none; }
+.divLineTaskInput .wrapx1 input:focus{ outline: none; }
+.divLineTaskInput:focus { border-color:#CCF; }
+.divLineTaskInput .taskInputRight {
+	
+}
+
+ul.gtdTaskUL {
+  margin: 0;
+  padding: 0;
+}
+
+ul.gtdTaskUL li {
+  cursor: pointer;
+  position: relative;
+  padding: 0.25rem 0.5rem 0.25rem 0.025rem;
+  list-style-type: none;
+  background: #eee;
+  transition: 0.2s;
+  /* make the list items unselectable */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+ul.gtdTaskUL li:nth-child(odd) {
+  background: #f9f9f9;
+}
+
+ul.gtdTaskUL li:hover {
+  background: #ddd;
+}
+
+ul.gtdTaskUL span.ck {
+	display:inline-block;
+}
+ul.gtdTaskUL span.ck, 
+ul.gtdTaskUL span.checked::before {
+  content:'';
+  position: absolute;
+  border-color: #000;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+}
+ul.gtdTaskUL span.ck { border-color:#fff; }
+
+.lisTask_ckLineText{ display:inline-block; white-space:nowrap; overflow-x:hidden; max-width:80%; }
+.lisTask_ckLineData{ display:inline-block; }
+
+ul.gtdTaskUL .close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 12px 16px;
+}
+
+ul.gtdTaskUL .close:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+
+.gtdTaskInput {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  width: 75%;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+}
+
+.gtdTaskBtn {
+  padding: 10px;
+  width: 25%;
+  background: #d9d9d9;
+  color: #555;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+}
+
+/* noty */
+.Nty_wrapper{}
+.Nty_wrapper .Nty_lineWrap{
+	font-size:0.8rem; border:0.0625rem solid #EEE; border-radius:0.5rem; 
+	padding:0.25rem; margin-bottom:0.25rem; border-bottom:0.0625rem solid blue;
+}
+.Nty_lineWrap ._user{ float: left; white-space: nowrap; width: 60%; overflow: hidden; }
+.Nty_lineWrap ._dateC{ float: right; white-space: nowrap; width: 38%; overflow: hidden; }
+.Nty_lineWrap ._textarea{ clear:both; padding:0.25rem 0 0 0; }
+
+

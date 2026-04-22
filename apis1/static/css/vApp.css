@@ -1,0 +1,22 @@
+/* Design to seller */
+.vAppItm_row{
+ display:inline-block; margin:0 4px 4px 0;
+}
+.vAppItm_row h5{}
+.vAppItm_row .iPrice{ display:block; text-align:center; }
+.vAppItm_row .iImg { display:block; max-width:16rem; max-height:32rem; }
+
+.vAppShop_secRow{ display:inline-block; text-align:center; vertical-align:top; margin:0 4px 4px 0;}
+.vAppShop_secRow .btitle{ display:block; padding:0.25rem; font-weight:bold; }
+.vAppShop_secRow .bimg{ display:block; width:180px; height:180px; }
+
+.vAppSeller_row{ display:table;
+ width:380px; border-radius:10px; border:1px solid #f2f2f2;
+ flex-wrap:nowrap; align-items:center; font-size:0.75rem;
+}
+.vAppSeller_row .blogo{ display:table-cell; vertical-align:top; width:130px; height:120px;  }
+.vAppSeller_row .blogo img{ border-radius:10px; }
+.vAppSeller_row .binfo{ display:table-cell; vertical-align:top; padding:5px 10px; }
+.vAppSeller_row .cardName{ font-size:1.125rem; text-align:center; font-weight:600; margin-bottom:3px; }
+.vAppSeller_row .city{ color:var(--yellow); font-weight:600; }
+.vAppSeller_row .cardInfo{ color:#ccc; padding:3px; }

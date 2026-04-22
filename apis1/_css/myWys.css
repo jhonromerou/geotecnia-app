@@ -1,0 +1,29 @@
+.myWysADM{
+min-height:100px; min-width:90%; border:0.0625rem solid #DDD; border-radius:0.25rem; padding:0.1625rem; background-color:#FFF;
+}
+.myWysADM .myWys_btool{ 
+	width:calc(100% - 0.5rem); font-size:0.9rem; background-color:#FFF; position:relative;
+	padding:0.25rem;
+}
+.myWys_btool .btnsRight{
+	position:absolute; right:0; top:0;
+}
+.myWysADM .myWys_btool .btnUl li {
+	display:inline-block; margin-right:0.125rem; padding:0 0.25rem; border:0.0625rem solid transparent;
+}
+.btnUl li:hover{ border:0.0625rem solid #000; background-color:#EEE; }
+.myWys_contentEdit{ padding:0.25rem; width:calc(100% - 0.5rem); min-height:10rem; max-height:calc(100% - 0.25rem); border:0.0625rem solid #DDD; }
+
+.myWys_contentHtml{ border:0.0625rem solid #DDD; padding:0.25rem; margin:0.25rem 0; background-color:#FFF; overflow:auto; max-height:12.5rem; }
+
+.myWys_contentHtml ul, .myWys_contentHtml ol {
+	margin:0 0 0 1.25rem !important;
+	padding:0 !important;
+}
+.myWys_contentHtml ul {
+	list-style:circle !important;
+}
+.myWys_contentHtml ol {
+	list-style:decimal !important;
+}
+._myWys_

@@ -1,0 +1,40 @@
+body { background-color:#c6c5ca; }
+#bodyAjax{
+	width:1092px; margin:0 auto;
+	font-family:Helvetica;
+}
+#JHelp_sea{ margin-bottom:30px; position:relative; }
+#JHelp_sea .divSea { position:absolute; bottom:20px; left:12px; min-width:420px; }
+#JHelp_sea .icon{ position:absolute; top:calc(50% - 9px); left:6px; font-size:18px; }
+#JHelp_sea .inputSea{ font-size:16px; padding:6px 4px 6px 30px; width:100%; }
+#adms_dinamycWrap{ background-color:#FFF; padding:10px; border-radiux:5px; }
+.imgtop{
+	position:relative; 
+	background-image:url("https://firebasestorage.googleapis.com/v0/b/unclicc4.appspot.com/o/public%2Fadmhelp%2Fimgtop.jpg?alt=media");
+	height:360px; background-position:0 -300px; background-repeat:no-repeat;
+}
+#JHelp_footer{ text-align:center; background-color:#EEE; }
+.imgTopLogo{ position:absolute; top:4px; left:4px; height:120px; }
+
+#JHelp_main{
+	display:table-cell; width:260px;
+}
+#JHelp_cont{
+	display:table-cell; padding-left:4px; width:calc(100% - 265px);
+}
+.tuto-title{ border-bottom:1px solid #DDD; margin-bottom:3px; }
+.contentHtml{
+	line-height:1.625rem;
+}
+
+.contentHtml p{ margin:2px 0; }
+.contentHtml h3, .contentHtml .item-title{ font-weight:bold; font-size:1.125rem; color:#000; font-style:italic; padding:4px 0; }
+.contentHtml ul{ list-style:square; }
+.contentHtml ul li { margin-left:32px; }
+.JHelp_tags{ margin:12px 0; }
+.JHelp_tags a { margin:0 0 4px 0; padding:5px; }
+.JHelp_tags a:after{ content:","; }
+.table-left-content .div1, .table-left-content .div2{
+	display:table-cell; vertical-align:top;
+}
+.table-left-content .div1{ width:300px; margin-right:6px; }
